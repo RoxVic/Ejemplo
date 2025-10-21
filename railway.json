@@ -4,6 +4,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "hypercorn OneDrive/Documents/Pruebas_python_back/clase2/servidor:app --bind \"[::]:$PORT\""
+    "startCommand": "servidor:app --bind \"[::]:$PORT\""
   }
 }
